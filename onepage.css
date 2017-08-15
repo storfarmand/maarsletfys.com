@@ -1,0 +1,328 @@
+﻿*
+{
+    -webkit-text-size-adjust: none !important;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+
+table
+{
+    margin: 0px;
+    padding: 0px;
+    border-collapse:collapse;
+    border-spacing: 0px;
+}
+
+th, td
+{
+    padding: 0px;
+}
+
+img
+{
+    display: table-cell;
+}
+
+
+ol[id='ol-onepage'], ol[id='ol-onepage'] ol
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li[value='1']
+{
+    border-bottom: 8px solid #434343;
+}
+
+li[value='1'] div[class='pagename']
+{
+    width: 260px;
+    border-bottom: 11px solid #007392;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #434343;
+}
+
+li[value='2'] div[class='pagename']
+{
+    width: 160px;
+    border-bottom: 5px solid #007392;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    color: #434343;
+}
+
+.leftContent {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.more 
+{
+    font-family: Arial;
+    font-size: 12px;
+    color: #626262;
+	height:18px;
+	cursor:pointer;
+	background-image:url(files/system/button_info.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	padding: 6px 0px 0px 20px;
+}
+
+.info
+{
+    width: 100%;
+    word-wrap: break-word;
+    border-top: 1px solid #434343;
+    border-bottom: 1px solid #434343;
+    padding: 10px 0px 10px 0px;
+    margin: 5px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1
+{
+    display: table-cell;
+    text-shadow: 0px /*{global-active-shadow-x}*/ 0px /*{global-active-shadow-y}*/ 0px /*{global-active-shadow-radius}*/ transparent /*{global-active-shadow-color}*/
+}
+
+.noshade
+{
+    text-shadow: 0px /*{global-active-shadow-x}*/ 0px /*{global-active-shadow-y}*/ 0px /*{global-active-shadow-radius}*/ transparent /*{global-active-shadow-color}*/
+}
+
+.select
+{
+    font-family: 'Verdana' !important;
+    font-weight: normal !important;
+    font-size: 13px !important;
+    color: #626262 !important;
+    width: 100%;
+    height: 26px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 12px solid #f1f1f1;
+    text-align: left;
+    background: url(files/system/files/index.html) no-repeat right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+
+.checkbox
+{
+    -moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	cursor: pointer;
+    border: 0px;
+}
+
+label
+{
+    font-family: 'Rockwell Regular' !important;
+    font-weight: normal !important;
+    color: #707070 !important;
+}
+
+
+
+
+label.error 
+{
+    visibility: hidden;
+    position: absolute;
+}
+
+
+.input,input[type='text'],input[type='email'],input[type='number'],input[type='tel']
+{
+    font-family: 'Verdana' !important;
+    font-weight: normal !important;
+    font-size: 13px !important;
+    color: #626262 !important;
+    width: 97.2%;
+    height: 36px;
+    background: #f1f1f1;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 2.8%;
+    line-height: 0px;
+    border: 1px solid #f1f1f1;
+    -webkit-appearance: none;
+    -moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+input.error
+{
+    border: 1px solid #e3001b;
+}
+    
+
+.knap
+{
+    font-family: 'Rockwell Regular' !important;
+    font-weight: normal !important;
+    font-size: 20px;
+    padding: 13px 0px 8px 0px;
+    border: 0px;
+    margin: 0px;
+    -webkit-appearance: none;
+    -moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.lillaknap
+{
+    font-family: 'Verdana' !important;
+    font-weight: normal !important;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #6b3288;
+    height: 25px;
+    padding: 0px 10px 0px 10px;
+    border: 0px;
+    margin: 0px;
+    -webkit-appearance: none;
+    -moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.knapbg
+{
+    font-family: 'Helvetica' !important;
+    font-weight: bold !important;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: right;
+    height: 28px;
+    width: 100%;
+    padding: 0px 13px 0px 35px;
+    border: 0px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-appearance: none;
+    -moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.knaplilladropdown
+{
+    width: 50px;
+    height: 50px;
+    background: url(files/system/files/index.html) no-repeat left top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.knapmenuarrow
+{
+    width: 34px;
+    height: 50px;
+    background: url(files/system/files/index.html) no-repeat left bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.knapblueleftarrow
+{
+    display: table-cell;
+    padding: 0px 0px 0px 13px;
+    background: url(files/system/files/index.html) no-repeat left center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.knapbluebg
+{
+    display: table-cell;
+    height: 30px;
+    vertical-align: middle;
+    padding: 0px 10px 0px 3px;
+    background: url(files/system/files/index.html) no-repeat right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*{global-active-shadow-x} - {global-active-shadow-y} - {global-active-shadow-radius} - {global-active-shadow-color}*/
+    text-shadow: 0px -1px 1px #5f6773;
+    color: #ffffff;
+    font-family: 'Helvetica' !important;
+    font-weight: bold !important;
+    font-size: 13px;
+    text-decoration: none !important;
+    
+}
+li {
+    max-width: 1060px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #707070;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #707070;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #707070;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #707070;
+}

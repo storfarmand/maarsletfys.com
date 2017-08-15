@@ -1,0 +1,61 @@
+.kontakt {
+  ul, ol {
+    list-style-type: none;
+  }
+  .section-content-left {
+    float: left;
+    width: 30%;
+    padding: 2%;
+    font-size: 14px;
+
+    p {
+      &:nth-of-type(1) {
+        padding-top: 12px;
+        font-weight: 900;
+      }
+      &.sub-section {
+        padding-top: 12px;
+      }
+    }
+
+    .opening-hours-heading {
+      padding: 18px 0 6px;
+    }
+    .opening-hours li li {
+      display: inline-block;
+      &:first-child {
+        width: 40%;
+      }
+    }
+  }
+  .section-content-right {
+    float: left;
+    width: 70%;
+    padding: 2%;
+    li {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 2% 0;
+      div {
+        width: 60%;
+        padding: 5%;
+        > * {
+          margin-bottom: 2%;
+        }
+      }
+    }
+    h4 {
+      font-size: 20px;
+      color: #007392;
+    }
+    h6 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 14px;
+      margin-top: 4%;
+    }
+  }
+}
