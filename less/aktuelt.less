@@ -1,0 +1,39 @@
+.aktuelt {
+  ul, ol {
+    list-style-type: circle;
+    margin-left: 24px;
+    font-size: 14px;
+  }
+
+  .section-content {
+    img {
+      width: 100%;
+      &.kaebe {
+        display: block;
+        padding: 12px 0;
+        width: 30%;
+        min-width: 150px;
+        &:nth-of-type(1) {
+          padding-top: 24px;
+        }
+      }
+    }
+  }
+  .section-heading-secondary {
+    text-transform: uppercase;
+    + .section-content h2 {
+      color: #007392
+    }
+  }
+  .divider {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    .spacer {
+      width: 25%;
+    }
+    .underline {
+      width: 69%;
+    }
+  }
+}

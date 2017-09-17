@@ -1,7 +1,32 @@
 .supersole {
-  ul, ol {
-    list-style-type: circle;
-    margin-left: 24px;
-    font-size: 14px;
+  .section-content {
+    img {
+      width: 100%;
+      &.kaebe {
+        display: block;
+        padding: 12px 0;
+        width: 30%;
+        min-width: 150px;
+        &:nth-of-type(1) {
+          padding-top: 24px;
+        }
+      }
+    }
+  }
+  .section-content h2 {
+    text-transform: uppercase;
+    color: #F00;
+  }
+  .linkto-supersole {
+    color: #F00;
+  }
+  .desc-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 100px;
+    }
   }
 }
