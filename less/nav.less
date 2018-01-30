@@ -7,7 +7,7 @@
     width: 32px;
     position: absolute;
     top: 50%;
-    left: 80%;
+    right: 0;
     transform: translate(-50%, -50%);
     cursor: pointer;
   }
@@ -56,30 +56,52 @@
     }
   }
   @media screen and (max-width: 768px) {
+    height: 112px;
+    .hamburger {
+      transform: translate(-50%, -30px);
+    }
     .nav {
       justify-content: center;
-      transform: translate(110%, 110%);
-      background-color: rgba(255, 255, 255, 0.8);
+      height: auto;
+      transform: translate(110%, 100px);
+      background-color: rgba(146,51,72,0.9);
       border-radius: 10px;
       ul {
         flex-direction: column;
       }
       .primary ul {
         text-transform: uppercase;
-        font-weight: 900;
+      }
+      .primary ul, .secondary ul {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32px;
       }
       [href] {
+        color: rgba(255, 255, 255, 1);
         &.active {
-          color: #007392;
+          color: rgba(0, 0, 0, 1);
           &:after {
             height: 0;
           }
         }
       }
     }
+    @media (orientation: portrait) {
+      height: 78px;
+      .hamburger {
+        transform: translate(-50%, -24px);
+      }
+      .nav {
+        transform: translate(110%, 78px);
+      }
+    }
     &.nav-active {
       .nav {
-        transform: translate(0%, 110%);
+        transform: translate(0%, 100px);
+        @media (orientation: portrait) {
+          transform: translate(0%, 78px);
+        }
       }
     }
   }

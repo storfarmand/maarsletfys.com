@@ -27,6 +27,10 @@
         width: 40%;
       }
     }
+    iframe {
+      width: 100%;
+      margin-top: 16px;
+    }
   }
   .section-content-right {
     float: left;
@@ -56,6 +60,25 @@
     p {
       font-size: 14px;
       margin-top: 4%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .section-content-left {
+      float: none;
+      width: 96%;
+      padding: 2%;
+      iframe {
+        width: 80vw;
+        height: 60vw;
+      }
+    }
+    .section-content-right {
+      float: none;
+      width: 96%;
+      padding: 2%;
+      img {
+        max-width: 30vw;
+      }
     }
   }
 }
