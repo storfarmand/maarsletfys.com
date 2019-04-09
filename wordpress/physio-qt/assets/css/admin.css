@@ -1,0 +1,142 @@
+
+/* Widget Testimonials */
+.testimonial-widget-child {
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	background-color: #f9f9f9;
+	border: 1px solid #dfdfdf;
+}
+.js-remove-testimonial {
+	text-decoration: none;
+}
+.js-remove-testimonial span {
+	margin-right: 5px;
+}
+
+textarea {
+	max-width: 100%;
+}
+
+.so-content input[type=text],
+.so-content input[type=number],
+.so-content .widefat {
+	box-shadow: none;
+	padding: 5px 10px;
+	border-radius: 2px;
+	border: 1px solid #d3d3d3;
+}
+
+.so-content input[type=checkbox] + label {
+	margin-bottom: 0;
+}
+
+.so-content label {
+	margin-bottom: 6px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #464646;
+}
+
+.so-content select {
+	min-width: 200px;
+}
+
+/* TGMPA plugin notice fix */
+.themes-php .wrap h1,
+.subsubsub {
+	float: none;
+}
+body.widgets-php #setting-error-tgmpa {
+	float: left;
+}
+body.widgets-php div.widget-liquid-left {
+	clear: both;
+}
+
+/* JS TMCE-active text color fix */
+.js .tmce-active .wp-editor-area {
+	color: #333!important; /* need to overrule */
+}
+
+/* Customizer CSS field align */
+#customize-control-custom_css textarea {
+	width: calc( 100% - 30px);
+	margin-left: 15px;
+}
+#customize-control-custom_css .customize-control-title {
+	margin-left: 15px;
+}
+
+/* ACF fields CSS */
+body .acf-fields > .acf-field {
+	padding: 20px 30px;
+}
+body .acf-fields > .acf-field[data-name="subtitle"] {
+	padding: 10px 12px;
+}
+body .acf-tab-wrap.-left .acf-tab-group li a {
+	padding: 14px 12px;
+}
+body .acf-field .acf-label p {
+	font-size: 12px;
+}
+
+/* !important to make overwrite default styles */
+body .acf-fields.-sidebar {
+	padding-left: 180px!important;
+}
+body .acf-fields.-sidebar:before {
+	width: 180px!important;
+}
+body .acf-tab-wrap.-left .acf-tab-group {
+	width: 180px!important;
+}
+
+.acf-field-5656137207688 .acf-input {
+	margin-bottom: 15px;
+}
+
+body.block-editor-page .acf-field-5656137207688 .acf-input {
+	margin-bottom: 10px
+}
+
+body.block-editor-page .acf-input-prepend,
+body.block-editor-page .acf-input-append {
+	height: 28px;
+}
+
+/* Theme customizer controls */
+li.customize-control {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #dfdfdf;
+}
+li.customize-control .description {
+	font-size: 12px;
+	font-style: normal;
+}
+#customize-controls .description {
+	color: #7f7e7e;
+}
+li.customize-control:last-of-type {
+	padding-bottom: 0;
+	border-bottom: none;
+}
+li.customize-control .description {
+	margin-bottom: 15px;
+	margin-top: -3px;
+}
+
+/* Custom admin notice for plugin update */
+.wrap .notice-qt {
+	padding: 20px 30px;
+	margin: 20px 0 50px 0;
+}
+.notice-qt h1 {
+	font-size: 26px;
+	font-weight: bold;
+}
+.notice-qt p {
+	font-size: 15px;
+}
